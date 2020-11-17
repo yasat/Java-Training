@@ -18,7 +18,7 @@ class Threadsrun implements Runnable{
 	@Override
 	public void run() {
 		//To show case every thread transaction. 
-		synchronized(b) { //try commenting this line with 23rd line and run it multiple times.
+		synchronized(b) { //try commenting this line with 24th line and run it multiple times.
 			b.deposit(10);
 			System.out.println("the record of transaction: after depositing, the balance is "+b.getbal());
 		}	
