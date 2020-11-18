@@ -1,0 +1,25 @@
+1. Write a program where you have Shape interface which contains one method draw. Three class Rectangle,Square and Circle implements the Shape Interface.
+you need to add logic inside the main method where you cant create the object using new method. You need to pass the type of object you want and in return it calls the draw 
+method and return the value.
+in draw : syso ("Inside Rectangle draw").....
+in main : I want rect type of object --->print ("Inside Rectangle draw).
+
+2. Print all subsequences of a string
+Input : abc
+Output : a, b, c, ab, bc, ac, abc
+
+Input : aaa
+Output : a, aa, aaa
+
+3. Create a ArrayList which contains strings values. Iterate them in reverse order.
+4. Create a map which contains Employee as Key and String value as value. The Employee has the below attributes :
+    -id
+    -name
+    -address
+    -designation
+    -dateofbirth
+    You need to sort the map based on name, address and dateofbirth.
+    
+  5. Write a program to remove duplicates from list of prime number.
+  6.Given a singly linked list, find the middle of the linked list. For example, if the given linked list is 1->2->3->4->5 then the output should be 3. 
+If there are even nodes, then there would be two middle nodes, we need to print the second middle element. For example, if given linked list is 1->2->3->4->5->6 then output should be 4. 
