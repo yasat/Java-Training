@@ -23,5 +23,10 @@ public class StringIt { //using static values for simplicity.. so, they can be u
 		
 		seq(st,""); //passing empty adder variable to get single length strings
 		System.out.println(hs);
+		
+		String st1 = "aaa"; //can make dynamic using scanner class or by passing argument from command line
+		hs.clear(); //clear linked hash map for new example
+		seq(st1,""); //passing empty adder variable to get single length strings
+		System.out.println(hs);
 	}
 }
